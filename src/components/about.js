@@ -39,7 +39,7 @@ export default function About() {
               <p className="text-base font-semibold leading-7 text-indigo-600">About Me</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rodrigo Muñoz Delaporte</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                I'm a self driven Fullstack Developer
+                Self driven Software Developer
               </p>
             </div>
           </div>
@@ -55,49 +55,72 @@ export default function About() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-              💼 My Expertise:
+                As a self-taught software developer, I have cultivated a diverse and comprehensive skill set, making me proficient in various cutting-edge technologies and tools that drive modern software development. With a strong foundation in web and application development, I have honed my skills in JavaScript, Python, React.js, Django, NoSQL databases, PostgreSQL, Docker, Kubernetes, and GitHub Actions.
+              </p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">💼 My Expertise:</h2>
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >☕ --| 🐍</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900"> JavaScript &  Python:</strong> Proficient in both front-end and back-end development, I utilize JavaScript and Python to create responsive and efficient web applications, leveraging their versatility for a wide range of projects.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">⚛️</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">React.js: </strong> 
+                      I have a deep understanding of React.js, allowing me to build interactive, user-friendly, and serverless web applications, ensuring a seamless user experience.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🌐</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Django: </strong> 
+                      With expertise in Django, I have developed robust and scalable back-end systems, implementing secure and efficient data handling and API integration.
+                      </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🌿</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Celery: </strong> 
+                    I'm well-versed in Celery for task queuing, making sure background processes run smoothly.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🤖</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Selenium: </strong>                 
+                    Automation is my forte, and I harness Selenium to streamline repetitive tasks and enhance testing processes.
+                    </span>
+                </li>
 
-🐍 Python: Proficient in Python, I leverage its versatility to build robust, scalable applications and automate tasks efficiently.
-🌐 Django: With hands-on experience in Django, I create web applications that are both functional and user-friendly.
-⚛️ React.js: I specialize in building modern and interactive front-end interfaces using React.js, ensuring a seamless user experience.
-🤖 Selenium: Automation is my forte, and I harness Selenium to streamline repetitive tasks and enhance testing processes.
-🌿 Celery: I'm well-versed in Celery for task queuing, making sure background processes run smoothly.
-🐳 Docker: I leverage Docker to containerize applications, simplifying deployment and scalability.
-☸️ Kubernetes: Proficiency in Kubernetes allows me to orchestrate and manage containerized applications with ease.
+Database Management: Skilled in both NoSQL and relational databases, I can design and manage data storage solutions that cater to the specific needs of each project, utilizing technologies like PostgreSQL and NoSQL databases.
+
+Load Balancers*: I have experience in configuring and managing Nginx web servers, optimizing web application performance, and ensuring secure and efficient content delivery, making use of Nginx as a reverse proxy server and load balancer.
+
+🐳 Containerization & ☸️  Orchestration: Proficient in Docker and Kubernetes, I have experience in containerizing applications, enabling easy deployment, scaling, and management in complex environments.
 
 
-🚀 What I Bring to the Table:
+Continuous Integration & Deployment (CI/CD): I have experience setting up and automating CI/CD pipelines using GitHub Actions, ensuring reliable and efficient software development and deployment processes.
 
-💡 Innovative Problem-Solver: I thrive on challenges and find creative solutions to complex problems.
+
+Professional Approach:
+
+My journey as a self-taught developer reflects my passion for continuous learning and adaptability. I thrive in collaborative environments, am an avid problem solver, and am committed to delivering high-quality, efficient, and secure software solutions. My ability to stay up-to-date with emerging technologies, coupled with a strong foundation in software development principles, positions me as a valuable asset for any project or team.
+
+**Experience:
+
+I have successfully completed various projects, including [mention specific projects or contributions], demonstrating my ability to tackle complex challenges and deliver results in real-world applications.
+
+**Education:
+
+While self-taught, my passion for software development has led me to consistently expand my knowledge and skills through online courses, self-study, and project-based learning.
+
 🤝 Collaborative Team Player: I excel in cross-functional teams, valuing open communication and knowledge sharing.
 📈 Continuous Learner: Self-improvement is my mantra; I stay updated with the latest tech trends and best practices.
 🌐 DevOps Enthusiast: I believe in bridging the gap between development and operations to deliver robust, reliable software.
-
-I'm always open to networking and collaborating on exciting projects. Whether you're looking to discuss tech, explore opportunities, or share ideas, feel free to reach out! Let's connect and create something extraordinary together. 🚀
-              </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                <li className="flex gap-x-3">
-                  <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
-                  </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-                  </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                  </span>
-                </li>
+                  
+                
               </ul>
               <p className="mt-8">
                 Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
