@@ -39,7 +39,7 @@ export default function About() {
               <p className="text-base font-semibold leading-7 text-indigo-600">About Me</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rodrigo Muñoz Delaporte</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Self driven Software Developer
+                Software Developer
               </p>
             </div>
           </div>
@@ -55,14 +55,17 @@ export default function About() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                As a self-taught software developer, I have cultivated a diverse and comprehensive skill set, making me proficient in various cutting-edge technologies and tools that drive modern software development. With a strong foundation in web and application development, I have honed my skills in JavaScript, Python, React.js, Django, NoSQL databases, PostgreSQL, Docker, Kubernetes, and GitHub Actions.
+                As a self-taught software developer, I have cultivated a diverse and comprehensive skill set, making me proficient in various cutting-edge technologies and tools that drive modern software development.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">💼 My Expertise:</h2>
+              <p className="mt-6">
+              My journey as a self-taught developer reflects my passion for continuous learning and adaptability. I thrive in collaborative environments, am an avid problem solver, and am committed to delivering high-quality, efficient, and secure software solutions. My ability to stay up-to-date with emerging technologies, coupled with a strong foundation in software development principles, positions me as a valuable asset for any project or team.
+              </p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My Skills:</h2>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >☕ --| 🐍</span>
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >☕</span>
                   <span>
-                    <strong className="font-semibold text-gray-900"> JavaScript &  Python:</strong> Proficient in both front-end and back-end development, I utilize JavaScript and Python to create responsive and efficient web applications, leveraging their versatility for a wide range of projects.
+                    <strong className="font-semibold text-gray-900"> JavaScript & 🐍 Python:</strong> Proficient in both front-end and back-end development, I utilize JavaScript and Python to create responsive and efficient web applications, leveraging their versatility for a wide range of projects.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -93,47 +96,69 @@ export default function About() {
                     Automation is my forte, and I harness Selenium to streamline repetitive tasks and enhance testing processes.
                     </span>
                 </li>
-
-Database Management: Skilled in both NoSQL and relational databases, I can design and manage data storage solutions that cater to the specific needs of each project, utilizing technologies like PostgreSQL and NoSQL databases.
-
-Load Balancers*: I have experience in configuring and managing Nginx web servers, optimizing web application performance, and ensuring secure and efficient content delivery, making use of Nginx as a reverse proxy server and load balancer.
-
-🐳 Containerization & ☸️  Orchestration: Proficient in Docker and Kubernetes, I have experience in containerizing applications, enabling easy deployment, scaling, and management in complex environments.
-
-
-Continuous Integration & Deployment (CI/CD): I have experience setting up and automating CI/CD pipelines using GitHub Actions, ensuring reliable and efficient software development and deployment processes.
-
-
-Professional Approach:
-
-My journey as a self-taught developer reflects my passion for continuous learning and adaptability. I thrive in collaborative environments, am an avid problem solver, and am committed to delivering high-quality, efficient, and secure software solutions. My ability to stay up-to-date with emerging technologies, coupled with a strong foundation in software development principles, positions me as a valuable asset for any project or team.
-
-**Experience:
-
-I have successfully completed various projects, including [mention specific projects or contributions], demonstrating my ability to tackle complex challenges and deliver results in real-world applications.
-
-**Education:
-
-While self-taught, my passion for software development has led me to consistently expand my knowledge and skills through online courses, self-study, and project-based learning.
-
-🤝 Collaborative Team Player: I excel in cross-functional teams, valuing open communication and knowledge sharing.
-📈 Continuous Learner: Self-improvement is my mantra; I stay updated with the latest tech trends and best practices.
-🌐 DevOps Enthusiast: I believe in bridging the gap between development and operations to deliver robust, reliable software.
-                  
-                
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">📊</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Databases: </strong>                 
+                    Skilled in both NoSQL and relational databases, I can design and manage data storage solutions that cater to the specific needs of each project, utilizing technologies like PostgreSQL and NoSQL databases.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🚀</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Load Balancers: </strong>                 
+                      I have experience in configuring and managing Nginx web servers, optimizing web application performance, and ensuring secure and efficient content delivery, making use of Nginx as a reverse proxy server and load balancer.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🐳</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Containerization & ☸️  Orchestration: </strong>                 
+                      Proficient in Docker and Kubernetes, I have experience in containerizing applications, enabling easy deployment, scaling, and management in complex environments.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🧪</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Testing: </strong>                 
+                      Experience with Test Driven Development, specially over Django Web Framework.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🛠️</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Continuous Integration & Deployment (CI/CD): </strong>                 
+                      I have experience setting up and automating CI/CD pipelines using GitHub Actions, ensuring reliable and efficient software development and deployment processes.
+                    </span>
+                </li>                
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I bring to the team?</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+              As a software developer, I am not just a coder; I am a problem solver, an innovator, and a committed team player with the following secondary skills.
               </p>
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >🤝</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Collaborative Team Player: </strong> 
+                    I excel in cross-functional teams, valuing open communication and knowledge sharing.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >📈</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Continuous Learner: </strong>
+                      Self-improvement is my mantra; I stay updated with the latest tech trends and best practices.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >🌐</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">DevOps Enthusiast:</strong> 
+                    I believe in bridging the gap between development and operations to deliver robust, reliable software.
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
