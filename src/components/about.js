@@ -1,5 +1,3 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-
 import ro from '../img/ro.jpg'
 
 
@@ -39,7 +37,7 @@ export default function About() {
               <p className="text-base font-semibold leading-7 text-indigo-600">About Me</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rodrigo Muñoz Delaporte</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Software Developer
+                Fullstack Developer
               </p>
             </div>
           </div>
@@ -72,14 +70,14 @@ export default function About() {
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">⚛️</span>
                   <span>
                     <strong className="font-semibold text-gray-900">React.js: </strong> 
-                      I have a deep understanding of React.js, allowing me to build interactive, user-friendly, and serverless web applications, ensuring a seamless user experience.
+                      I have a deep understanding of React.js, allowing me to build interactive, user-friendly, ensuring a seamless user experience.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🌐</span>
                   <span>
                     <strong className="font-semibold text-gray-900">Django: </strong> 
-                      With expertise in Django, I have developed robust and scalable back-end systems, implementing secure and efficient data handling and API integration.
+                    With expertise in Django, I have developed robust and scalable back-end systems, implementing secure and efficient data handling and API development and integration.
                       </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -97,6 +95,13 @@ export default function About() {
                     </span>
                 </li>
                 <li className="flex gap-x-3">
+                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🧪</span>
+                  <span>
+                    <strong className="font-semibold text-gray-900">Testing: </strong>                 
+                      Experience with Test Driven Development, specially over Django Web Framework.
+                    </span>
+                </li>
+                <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">📊</span>
                   <span>
                     <strong className="font-semibold text-gray-900">Databases: </strong>                 
@@ -106,7 +111,7 @@ export default function About() {
                 <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🚀</span>
                   <span>
-                    <strong className="font-semibold text-gray-900">Load Balancers: </strong>                 
+                    <strong className="font-semibold text-gray-900">Servers: </strong>                 
                       I have experience in configuring and managing Nginx web servers, optimizing web application performance, and ensuring secure and efficient content delivery, making use of Nginx as a reverse proxy server and load balancer.
                     </span>
                 </li>
@@ -117,13 +122,7 @@ export default function About() {
                       Proficient in Docker and Kubernetes, I have experience in containerizing applications, enabling easy deployment, scaling, and management in complex environments.
                     </span>
                 </li>
-                <li className="flex gap-x-3">
-                  <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🧪</span>
-                  <span>
-                    <strong className="font-semibold text-gray-900">Testing: </strong>                 
-                      Experience with Test Driven Development, specially over Django Web Framework.
-                    </span>
-                </li>
+                
                 <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true">🛠️</span>
                   <span>
@@ -132,9 +131,9 @@ export default function About() {
                     </span>
                 </li>                
               </ul>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I bring to the team?</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">What can I bring to a team?</h2>
               <p className="mt-6">
-              As a software developer, I am not just a coder; I am a problem solver, an innovator, and a committed team player with the following secondary skills.
+              As a fullstack developer, I am not just a coder; I am a problem solver, an innovator, and a committed team player with the following secondary skills.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -148,7 +147,7 @@ export default function About() {
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >📈</span>
                   <span>
                     <strong className="font-semibold text-gray-900">Continuous Learner: </strong>
-                      Self-improvement is my mantra; I stay updated with the latest tech trends and best practices.
+                      I follow Self-improvement; I stay updated with the latest tech trends and best practices.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
