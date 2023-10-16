@@ -59,7 +59,7 @@ export default function About() {
               My journey as a self-taught developer reflects my passion for continuous learning and adaptability. I thrive in collaborative environments, am an avid problem solver, and am committed to delivering high-quality, efficient, and secure software solutions. My ability to stay up-to-date with emerging technologies, coupled with a strong foundation in software development principles, positions me as a valuable asset for any project or team.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">My Skills:</h2>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >☕</span>
                   <span>
@@ -135,7 +135,7 @@ export default function About() {
               <p className="mt-6">
               As a fullstack developer, I am not just a coder; I am a problem solver, an innovator, and a committed team player with the following secondary skills.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" >🤝</span>
                   <span>
