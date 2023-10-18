@@ -49,10 +49,11 @@ export default function BlogList() {
               </div>
             </div>
             <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-              <a href="#">
-                <span className="absolute inset-0" />
-                {posts.title}
-              </a>
+              <span className="absolute inset-0" />
+                  {posts.title}
+              {/* <a href="#">
+                
+              </a> */}
             </h3>
           </article>
           )
